@@ -1,0 +1,17 @@
+{
+  "name": "mini-reactive",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@happy-dom/global-registrator": "^20.8.9",
+    "@types/bun": "latest",
+    "vite": "^8.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "vite"
+  }
+}
